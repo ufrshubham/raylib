@@ -1512,6 +1512,11 @@ RLAPI void SetAudioStreamVolume(AudioStream stream, float volume);    // Set vol
 RLAPI void SetAudioStreamPitch(AudioStream stream, float pitch);      // Set pitch for audio stream (1.0 is base level)
 RLAPI void SetAudioStreamBufferSizeDefault(int size);                 // Default size for new audio streams
 
+// Struct constructors for raylib-dart
+
+// Creates an object of Vector2
+RLAPI Vector2 CreateVector2(float x, float y);
+
 #if defined(__cplusplus)
 }
 #endif

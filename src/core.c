@@ -6606,3 +6606,8 @@ static int FindNearestConnectorMode(const drmModeConnector *connector, uint widt
     return nearestIndex;
 }
 #endif
+
+Vector2 CreateVector2(float x, float y)
+{
+    return (Vector2){x, y};
+}
