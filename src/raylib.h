@@ -1516,6 +1516,7 @@ RLAPI void SetAudioStreamBufferSizeDefault(int size);                 // Default
 
 // Creates an object of Vector2
 RLAPI Vector2 CreateVector2(float x, float y);
+RLAPI Color CreateColor(unsigned char r, unsigned char g, unsigned char b, unsigned char a);
 
 #if defined(__cplusplus)
 }

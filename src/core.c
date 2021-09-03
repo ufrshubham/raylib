@@ -6611,3 +6611,8 @@ Vector2 CreateVector2(float x, float y)
 {
     return (Vector2){x, y};
 }
+
+Color CreateColor(unsigned char r, unsigned char g, unsigned char b, unsigned char a)
+{
+    return (Color){r, g, b, a};
+}
