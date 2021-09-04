@@ -6616,3 +6616,8 @@ Color CreateColor(unsigned char r, unsigned char g, unsigned char b, unsigned ch
 {
     return (Color){r, g, b, a};
 }
+
+Image CreateImage(void *data, int width, int height, int mipmaps, int format)
+{
+    return (Image){data, width, height, mipmaps, format};
+}
