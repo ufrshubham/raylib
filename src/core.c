@@ -6621,3 +6621,8 @@ Image CreateImage(void *data, int width, int height, int mipmaps, int format)
 {
     return (Image){data, width, height, mipmaps, format};
 }
+
+Camera2D CreateCamera2D(Vector2 offset, Vector2 target, double rotation, double zoom)
+{
+    return (Camera2D){offset, target, rotation, zoom};
+}
