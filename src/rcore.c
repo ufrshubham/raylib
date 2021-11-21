@@ -6770,3 +6770,22 @@ static void PlayAutomationEvent(unsigned int frame)
     }
 }
 #endif
+Vector2 CreateVector2(float x, float y)
+{
+    return (Vector2){x, y};
+}
+
+Color CreateColor(unsigned char r, unsigned char g, unsigned char b, unsigned char a)
+{
+    return (Color){r, g, b, a};
+}
+
+Image CreateImage(void *data, int width, int height, int mipmaps, int format)
+{
+    return (Image){data, width, height, mipmaps, format};
+}
+
+Camera2D CreateCamera2D(Vector2 offset, Vector2 target, double rotation, double zoom)
+{
+    return (Camera2D){offset, target, rotation, zoom};
+}
